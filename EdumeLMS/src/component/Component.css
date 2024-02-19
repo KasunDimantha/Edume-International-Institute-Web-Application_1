@@ -85,14 +85,14 @@
 
 
 
-
+/* --------------------------------------------------------------------------- */
 
 .hero {
-    
+    height: 100vh;
 }
 
 .heroImg {
-    height: 88vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
 }
@@ -101,7 +101,8 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
-    top: -520px;
+    top: -550px;
+    
 }
 
 #navbar li {
@@ -109,5 +110,85 @@
     margin-right: 60px;
     font-size: 18px;
     color: white;
+    cursor: pointer;
+}
 
+#navbar li:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------- */
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(47, 47, 109);
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.contact{
+   color: white;
+   font-family: sans-serif;
+}
+
+.contact h4 {
+    font-size: 20px;
+}
+
+.contact p{
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.info{
+    color: white;
+    font-family: sans-serif;
+}
+
+.info h4 {
+    font-size: 25px;
+}
+
+.info p{
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.follow{
+    color: white;
+    font-family: sans-serif;
+}
+
+.icon {
+    display: flex;
+    cursor: pointer;
+}
+
+.follow h4{
+    font-size: 15px;
+}
+
+.icon p{
+    padding-right: 8px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.pay h4{
+    font-size: 18px;
+    color: white;
+}
+
+.pay img {
+    height: 25px;
 }
