@@ -21,6 +21,11 @@ export default function Hero_section() {
                     </ul>
                 </div>
 
+                <div className="hero_con">
+                    <h2>Where your carrier <br />future begin !!!</h2>
+                    <button>Explor More !</button>
+                </div>
+
             </section>
         </>
     )

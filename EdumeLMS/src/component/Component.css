@@ -101,7 +101,7 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
-    top: -550px;
+    top: -580px;
     
 }
 
@@ -115,6 +115,34 @@
 
 #navbar li:hover {
     text-decoration: underline;
+}
+
+.hero_con {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -400px;
+    font-family: Arial, Helvetica, sans-serif;
+    right: 35px;
+}
+
+.hero_con h2{
+    color: white;
+    font-size: 35px;
+}
+
+.hero_con button {
+    position: absolute;
+    top: 85px;
+    right: 115px;
+    font-size: 25px;
+    background-color: rgb(54, 241, 54);
+    padding: 5px 18px;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 
