@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(119, 118, 74);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 70px 10px 80px;
+    align-items: center;
+}
+
+.header_name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.search_bar {
+    display: flex;
+    position: relative;
+}
+
+.search_bar input{
+    height: 29px;
+    width: 250px;
+    font-size: 15px;
+    outline-style: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search_bar button {
+    width: 29px;
+    height: 29px;
+    border-radius: 15px;
+    position: relative;
+    left: -29px;
+    border: none;
+    background-color: white;
+}
+
+.search_bar button:hover {
+    background-color: rgba(212, 198, 198, 0.897);
+}
+
+.search_bar button:active {
+    background-color: rgba(212, 198, 198, 0.678);
+}
+
+.header_account{
+    align-items: center;
+
+}
+
+.profile a {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.account_function {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.a1 {
+    cursor: pointer;
+}
+
+.a1:hover {
+    text-decoration: underline;
+}
+
+.a3 {
+    cursor: pointer;
+}
+
+.a3:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.hero {
+    
+}
+
+.heroImg {
+    height: 88vh;
+    width: 100%;
+    background-size: cover;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -520px;
+}
+
+#navbar li {
+    list-style: none;
+    margin-right: 60px;
+    font-size: 18px;
+    color: white;
+
+}
