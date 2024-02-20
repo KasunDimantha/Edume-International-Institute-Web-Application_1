@@ -38,6 +38,9 @@ export default function Footer() {
                 <img src={pay} alt="payment" className="payment" />
             </div>
         </div>
+        <div className="footerName">
+            <p>@Edume International Institute</p>
+        </div>
             
         </>
     )

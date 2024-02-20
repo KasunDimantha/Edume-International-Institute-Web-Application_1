@@ -2,13 +2,14 @@ import React from "react";
 import './Component.css'
 import { FaSearch } from "react-icons/fa";
 import { VscAccount } from "react-icons/vsc";
+import { Link } from "react-router-dom";
 
 export default function TopBar() {
     return (
         <>
             <div className="header">
                 <div className="header_name">
-                    <h3>Edume International Institute</h3>
+                    <Link to="/"><h3>Edume International Institute</h3></Link>
                 </div>
                 <div className="search_bar">
                     
@@ -21,12 +22,23 @@ export default function TopBar() {
                     </div>
                     <div className="account_function">
                         <ul>
-                            <a className="a1">Login</a>
+                            <Link to="/signInPage" className="a1">Login</Link>
                             <a className="a2"> | </a>
-                            <a className="a3">SignUp</a>
+                            <Link to="/signUpPage" className="a3">SignUp</Link>
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div>
+                <ul id="navbar">
+                    <li><a>Home</a></li>
+                    <li><a>Programs</a></li>
+                    <li><a>Support</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Contact Us</a></li>
+                    <li><a>My Courses</a></li>
+                    <li><a>Student Manuals</a></li>
+                </ul>
             </div>
         </>
     )

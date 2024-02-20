@@ -9,18 +9,6 @@ export default function Hero_section() {
             <section className="hero">
                 <img src={heroimg} alt="heroimg" className="heroImg"/>
 
-                <div>
-                    <ul id="navbar">
-                        <li><a>Home</a></li>
-                        <li><a>Programs</a></li>
-                        <li><a>Support</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a>Contact Us</a></li>
-                        <li><a>My Courses</a></li>
-                        <li><a>Student Manuals</a></li>
-                    </ul>
-                </div>
-
                 <div className="hero_con">
                     <h2>Where your carrier <br />future begin !!!</h2>
                     <button>Explor More !</button>
